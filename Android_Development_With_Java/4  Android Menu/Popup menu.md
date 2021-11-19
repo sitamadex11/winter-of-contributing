@@ -6,13 +6,8 @@
  is not available then it displays it above the Anchor text. It appears untill when you do not click on the pop-up menu text.
  
 # <hr> For this you need to create an XML file inside "res/menu/popup" like this: </hr>
-<<<<<<< HEAD
 ```<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
     <item         
-=======
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
-     <item         
->>>>>>> 8d558f78494aff2faa8a86d27fdb522f0ec6ae78
        android:id="@+id/one"  
      android:title="Android"/>  
     <item  
@@ -77,12 +72,8 @@
 In this, you create the id of the button on which you pop up the menu. Now you will crate the instance of the PopUp menu, then 
 you will populate.
 
-<<<<<<< HEAD
 
 ``` package com.popupmenu;  
-=======
-package com.popupmenu;  
->>>>>>> 8d558f78494aff2faa8a86d27fdb522f0ec6ae78
    
 import android.os.Bundle;  
 import android.app.Activity;  
